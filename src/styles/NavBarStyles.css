@@ -1,0 +1,62 @@
+.navbar-costadito {
+    justify-content: flex-end
+}
+
+.fundadorr{
+    color: #fff !important;
+    border: 1px solid;
+    border-color: #bfa251;
+    background-color: transparent;
+    border-radius: 0;
+    text-decoration: none;
+    text-indent: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .875rem;
+    letter-spacing: .117em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-right: .5rem;
+}
+
+.fund-pack :hover {
+    color: #141312 !important;
+    background-image: linear-gradient(90deg, #c6a36d, #d8caa4, #fcf5e2, #cf9b5e, #a98141);
+}
+
+.navbars {
+    background: #141312;
+}
+
+.LogoLostArk {
+    display: inline-flex;
+    width: 132px;
+    margin-right: 10px;
+}
+
+.colorcito{
+    font-weight: 750;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition-property: color,border-color;
+    transition-duration: .35s;
+    transition-timing-function: ease-in-out;
+}
+
+.colorcito :hover {
+    color: #fff !important;
+    border-color: #bfa251;
+}
+
+
+.barrin{
+    margin-top: 7px;
+    color: #b5b5b5;
+}

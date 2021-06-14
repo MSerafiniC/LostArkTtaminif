@@ -1,0 +1,38 @@
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.principal{
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.principal p{
+    font-size: 20px;
+}
+
+.separador{
+    background: url('../images/separadorr.png') 0 0 no-repeat;
+    width: 313px;
+    height: 30px;
+    filter: drop-shadow(0 0 6px #000000);
+    margin: 1rem auto 4rem;
+}
+
+.insid{
+    font-family: 'Oxygen', sans-serif;
+    height: 10vh;
+}
+

@@ -12,6 +12,13 @@
     position: absolute;
     letter-spacing: 5px;
     text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-indent: 0;
+    font-family: Vendome,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    filter: drop-shadow(0 2px 6px #000000);
 }
 
 .principal h1{

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavBar } from '../components/NavBar';
 import { Noticias } from '../components/Noticias';
 
-import '../styles/slider.css'
+import '../styles/Slider.css'
 import '../styles/ColorNubeFondo.css'
 
 export const Overall = () => {

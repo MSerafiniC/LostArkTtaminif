@@ -26,15 +26,16 @@ export const NavBar = () => {
                         <a className="nav-link dropdown-toggle colorcito" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Juego
                         </a>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul className="dropdown-menu navis" aria-labelledby="navbarDropdownMenuLink">
                             <li><a className="dropdown-item" href="#">Historia</a></li>
                             <li><a className="dropdown-item" href="#">Clases</a></li>
                             <li><a className="dropdown-item" href="#">Multimedia</a></li>
+                            <li><a className="dropdown-item" href="#">Preguntas frecuentes</a></li>
                         </ul>
                         </li>
                         
                         <li className="nav-item">
-                        <Link to="/news" className="nav-link colorcito">Noticias</Link>
+                        <NavLink exact activeClassName="active" to="/news" className="nav-link colorcito">Noticias</NavLink>
                         </li>
                         
                     </ul>

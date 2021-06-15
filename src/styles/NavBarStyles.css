@@ -60,3 +60,42 @@
     margin-top: 7px;
     color: #b5b5b5;
 }
+
+.navis{
+    color: #fff;
+    font-weight: 750;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition-property: color,border-color;
+    transition-duration: .35s;
+    transition-timing-function: ease-in-out;
+    background-color: #141312;
+}
+
+.dropdown-item{
+    color: #b5b5b5;
+    font-weight: 750;
+    font-style: normal;
+    font-size: .70rem;
+    line-height: 1;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition-property: color,border-color;
+    transition-duration: .25s;
+    transition-timing-function: ease-in-out;
+}
+
+.dropdown-item:hover{
+    background-color: #141312;
+    color: #fff;
+}

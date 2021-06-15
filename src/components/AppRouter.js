@@ -9,6 +9,7 @@ import {
 import { NavBar } from './NavBar';
 import { HomeScreen } from './HomeScreen';
 import { Noticias } from './Noticias'
+import { MultimediaScreen } from './MultimediaScreen';
 
 export const AppRouter = () => {
     return (
@@ -18,15 +19,12 @@ export const AppRouter = () => {
                 <NavBar />
                 <Switch>
                 <Route exact path="/"  component={ HomeScreen }/>
+                <Route exact path="/media"  component={ MultimediaScreen }/>
                 <div className="container">
                     
-                        <Route exact path="/"  component={ HomeScreen }/>
-
-                        <Route exact path="/news"  component={ Noticias }/>
-                        {/* <Route exact path="/login"  component={ LoginScreen }/> */}
-
-                        {/* <Redirect to={ HomeScreen } /> */}
-                        
+                    <Route exact path="/"  component={ HomeScreen }/>
+                    <Route exact path="/news"  component={ Noticias }/>
+                    {/* <Redirect to={ HomeScreen } /> */}
                     
                 </div>
                 </Switch>

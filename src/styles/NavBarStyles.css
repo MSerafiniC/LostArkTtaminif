@@ -105,3 +105,8 @@
     background-color: #141312;
     color: #fff;
 }
+
+ul .dropdown-item.active{
+    background-color: #141312 !important;
+    border-bottom: 1px solid #bfa251;
+}

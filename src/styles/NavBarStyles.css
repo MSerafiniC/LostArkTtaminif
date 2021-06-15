@@ -35,6 +35,8 @@
 }
 
 .colorcito{
+    margin-left: 7px;
+    text-indent: 0;
     font-weight: 750;
     font-style: normal;
     font-size: .75rem;
@@ -50,9 +52,13 @@
     transition-timing-function: ease-in-out;
 }
 
-.colorcito :hover {
+.colorcito:hover {
     color: #fff !important;
-    border-color: #bfa251;
+    border-color: #bfa251 !important;
+}
+
+.active{
+    border-bottom: 1px solid #bfa251;
 }
 
 

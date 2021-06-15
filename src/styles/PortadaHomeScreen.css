@@ -1,0 +1,90 @@
+.lostarklogo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    background-image: url('../images/LostArkBanner.jpg');
+}
+
+.lostarklogo >div{
+    align-items: center;
+    text-align: center;
+    padding-top: 270px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.laLogoEdit{
+    width: 650px;
+    height: auto;
+    margin: 0 auto -12px;
+    z-index: 1;
+    filter: drop-shadow(0 0 6px #000000);
+    box-sizing: border-box;
+}
+
+.odisea{
+    position: relative;
+    color: #fff;
+    padding: 1.1rem 4rem .9rem;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg,transparent,rgba(0,0,0,.35) 10%,rgba(0,0,0,.35) 90%,transparent);
+    font-size: 2.125rem;
+    line-height: 1;
+    text-decoration: none;
+    text-indent: 0;
+    font-family: Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.odisea::before{
+    top: 0;
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,rgba(191,162,81,0),#bfa251,rgba(191,162,81,0));
+    font-size: 2.125rem;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.odisea::after{
+    bottom: 0;
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,rgba(191,162,81,0),#bfa251,rgba(191,162,81,0));
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.playfree{
+    text-decoration: none;
+    text-indent: 0;
+    font-family: Vendome,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.37505rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    text-shadow: 0 0 6px #000;
+    filter: drop-shadow(0 0 6px #000000);
+    color: #fff;
+    margin: 22px 0 0;
+    box-sizing: border-box;
+}

@@ -1,19 +1,14 @@
 import React from 'react';
 import { NavBar } from '../components/NavBar';
 import { Noticias } from '../components/Noticias';
+import { AppRouter } from '../components/AppRouter';
 
-import '../styles/Slider.css'
-import '../styles/ColorNubeFondo.css'
+import '../styles/Slider.css';
 
 export const Overall = () => {
     return (
-        <div className="colorNubeFondo">
-            <NavBar/>
-            
-                <div className="slider">
-                    <Noticias />
-                    
-                </div>
+        <div>
+            <AppRouter/>
         </div>
     )
 }

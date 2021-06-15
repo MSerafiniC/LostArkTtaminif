@@ -1,12 +1,13 @@
 .card{
-    background-color: rgba(0,0,0,.65) !important;
-    height: 500px;
+  background-color: rgba(0,0,0,.65) !important;
+  height: 500px;
+  margin-bottom: 60px;
 }
 
 .card:hover {
-    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
-    transition: all 0.7s linear;
-  }
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
   
   .card-body {
     padding: 2rem 0 !important;

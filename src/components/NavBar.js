@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom';
 import LostArkLogo from '../images/LostArkLogo.png'
 
 import '../styles/NavBarStyles.css'
@@ -10,9 +11,9 @@ export const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbars navbar-dark">
                 <div className="container-fluid">
                 
-                <a class="LogoLostArk" href="#">
+                <Link to="/" className="LogoLostArk">
                     <img src={LostArkLogo} alt="" width="132"/>
-                </a>
+                </Link>
                     
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -33,7 +34,7 @@ export const NavBar = () => {
                         </li>
                         
                         <li className="nav-item">
-                        <a className="nav-link colorcito" href="#">Noticias</a>
+                        <Link to="/news" className="nav-link colorcito">Noticias</Link>
                         </li>
                         
                     </ul>

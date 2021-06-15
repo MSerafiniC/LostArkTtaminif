@@ -2,8 +2,10 @@ import React from "react";
 import Card from "./Card";
 
 import image1 from "../images/image1.jpg";
-import image2 from '../images/image2.jpg'
-import image3 from '../images/image3.jpg'
+import image2 from '../images/image2.jpg';
+import image3 from '../images/image3.jpg';
+import image4 from '../images/image4.jpg';
+
 
 const cards = [
   {
@@ -26,6 +28,13 @@ const cards = [
     image: image3,
     text: "Para celebrar el comienzo de la alfa técnica cerrada con un breve segmento en el que mostraremos jugabilidad y homenajearemos a algunos de los creadores de contenido de Lost Ark.",
     url: "https://www.playlostark.com/es-es/news/articles/celebrate-the-technical-alpha-with-twitchgaming",
+  },
+  {
+    id: 4,
+    title: "Más información sobre la alfa.",
+    image: image4,
+    text: "Ahora que nos estamos preparando para el lanzamiento de Lost Ark, vamos a invitar a jugadores a Arkesia a nuestra alfa técnica cerrada confidencial. ¡Sigue leyendo para descubrir cómo puedes tener la posibilidad de jugar antes que nadie a LostArk!",
+    url: "https://www.playlostark.com/es-es/news/articles/learn-more-about-alpha",
   },
 ];
 

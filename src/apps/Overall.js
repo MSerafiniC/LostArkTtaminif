@@ -9,11 +9,11 @@ export const Overall = () => {
     return (
         <div className="colorNubeFondo">
             <NavBar/>
+            
                 <div className="slider">
                     <Noticias />
                     
                 </div>
-            
         </div>
     )
 }

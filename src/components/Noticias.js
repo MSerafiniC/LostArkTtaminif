@@ -7,7 +7,7 @@ export const Noticias = () => {
     return (
         <div className="content">
             <div className="principal">
-                <h1> Noticias </h1>
+                <h1>Noticias</h1>
 
                 <div className="separador"></div>
                     

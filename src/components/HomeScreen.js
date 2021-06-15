@@ -1,6 +1,6 @@
 import React from 'react';
 import LaLogo from '../images/LaLogo.png';
-// import { Noticias } from '../components/Noticias';
+import { Noticias } from '../components/Noticias';
 
 import '../styles/PortadaHomeScreen.css'
 
@@ -12,6 +12,7 @@ export const HomeScreen = () => {
                 <h2 className="odisea">Tu odisea te espera</h2>
                 <h3 className="playfree">Juega gratis en otoño de 2021</h3>
             </div>
+            <Noticias/>
         </div>
     )
 }
